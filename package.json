@@ -1,0 +1,16 @@
+{
+  "name": "aws-hackathon-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Minimal & Techy Personal Portfolio scaffolded for AWS Hackathon, ready for AWS S3 + CloudFront hosting",
+  "scripts": {
+    "dev": "vite",
+    "build": "python build.py",
+    "preview": "python -m http.server 3000 --directory dist",
+    "serve": "python -m http.server 3000"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

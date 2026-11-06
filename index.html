@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Rivera | Cloud Architect & Full-Stack Developer - AWS Hackathon Portfolio</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Alex Rivera | Cloud Architect & Full-Stack Developer">
+  <meta name="description" content="Personal portfolio and AWS Hackathon showcase for Alex Rivera - Cloud Architect & Full-Stack Developer. Featuring serverless projects, skills, and an interactive cloud terminal.">
+  <meta name="keywords" content="AWS, CloudFront, Amazon S3, Lambda, Cloud Architect, Full Stack Developer, Serverless, React, Portfolio, Hackathon">
+  <meta name="author" content="Alex Rivera">
+  <meta name="theme-color" content="#0a0e17">
+  <link rel="canonical" href="https://alexrivera.dev">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alexrivera.dev">
+  <meta property="og:title" content="Alex Rivera | Cloud Architect & Full-Stack Developer">
+  <meta property="og:description" content="Architecting resilient, serverless cloud solutions & high-performance web experiences on AWS. Featuring an interactive cloud terminal.">
+  <meta property="og:image" content="./src/assets/og-image.svg">
+  <meta property="og:site_name" content="Alex Rivera Portfolio">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://alexrivera.dev">
+  <meta name="twitter:title" content="Alex Rivera | Cloud Architect & Full-Stack Developer">
+  <meta name="twitter:description" content="Architecting resilient, serverless cloud solutions & high-performance web experiences on AWS. Featuring an interactive cloud terminal.">
+  <meta name="twitter:image" content="./src/assets/og-image.svg">
+  <meta name="twitter:creator" content="@alexrivera_dev">
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="./src/assets/favicon.svg">
+
+  <!-- Google Fonts: Space Grotesk (Headings) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['Space Grotesk', 'system-ui', 'sans-serif'],
+            body: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              canvas: 'var(--color-bg-canvas)',
+              surface: 'var(--color-bg-surface)',
+              elevated: 'var(--color-bg-elevated)',
+              primary: 'var(--color-accent-primary)',
+              aws: '#ff9900',
+              text: 'var(--color-text-primary)',
+              secondary: 'var(--color-text-secondary)',
+              border: 'var(--color-border)',
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Design System & Tokens -->
+  <link rel="stylesheet" href="./src/styles/design-system.css">
+</head>
+<body class="min-h-screen bg-[var(--color-bg-canvas)] text-[var(--color-text-primary)] antialiased transition-colors duration-250">
+  
+  <!-- Accessible Skip to Content Link (WCAG 2.1 AA) -->
+  <a 
+    href="#main-content" 
+    class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2.5 focus:rounded-xl focus:bg-sky-400 focus:text-slate-950 focus:font-heading focus:font-bold focus:shadow-2xl focus:outline-none focus:ring-2 focus:ring-sky-300"
+  >
+    Skip to main content
+  </a>
+
+  <!-- Single Page Root Container -->
+  <div id="app"></div>
+
+  <!-- Main ES Module Bootstrap -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
